@@ -1,0 +1,41 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-brendan {
+    width: 176px;
+    height: 176px;
+    background-position: -5px -5px;
+}
+
+.sprite-brendaneich {
+    width: 169px;
+    height: 203px;
+    background-position: -191px -5px;
+}
+
+.sprite-chicas-lab {
+    width: 95px;
+    height: 36px;
+    background-position: -370px -5px;
+}
+
+.sprite-laboratoria-logo {
+    width: 55px;
+    height: 54px;
+    background-position: -370px -51px;
+}
+
+.sprite-medium {
+    width: 52px;
+    height: 46px;
+    background-position: -435px -51px;
+}
+
+.sprite-medium-logo {
+    width: 110px;
+    height: 94px;
+    background-position: -370px -115px;
+}
