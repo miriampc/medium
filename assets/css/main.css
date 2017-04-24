@@ -1,15 +1,13 @@
 @import url('../css/sprite.css');
 @import url('../icomoon/style.css');
+
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Khula', sans-serif;
     box-sizing: border-box;
 }
 
-form{
-    width: 100%;
-}
 
 header{
     width: 100%;
@@ -17,7 +15,6 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    background: #f1f9f9;
 }
 
 .left{
@@ -64,8 +61,12 @@ header{
 
 .icon-search{
   position: absolute;
-  top: 17px;
+  top: 12px;
   right: 240px;
+}
+
+.icons [class|="icon"]{
+  font-weight: bold;
 }
 
 nav [class|="icon"]{
@@ -80,38 +81,39 @@ nav [class|="icon"]{
     margin: 0 20%;
     position: absolute;
     top:70px;
-
 }
 
 .blogger{
-    margin: 50px 0;
+    margin: 42px 0;
 }
 
 .blogger-dates{
   margin-left: 20px;
 }
+
 .blogger h4{
-    margin-bottom: 14px;
+    margin-bottom: 10px;
 }
 
 .blogger p{
     color: #a1a1a1;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 h1{
+    font-family: 'Amaranth', sans-serif;
     font-size: 35px;
     margin-bottom: 20px;
 }
 
 .blog{
+    font-family: 'Overlock', cursive;
     text-align: justify;
+    font-size: 28px;
 }
 
-
-
 footer{
-    width: 98%;
+    width: 100%;
     position: absolute;
     bottom: 0;
     border-top: 1px solid #a1a1a1;
@@ -127,4 +129,8 @@ footer{
 
 .text-green{
     color:#1c9963;
+}
+
+.icons{
+  margin-left: 18%;
 }

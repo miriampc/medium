@@ -25,6 +25,15 @@
   display: inline-block;
 }
 
+[class|="icon"]{
+  font-size: 21px;
+  margin-left: 14px;
+}
+
+[class|="icon"]:hover{
+  transform: scale(1.2);
+}
+
 .icon-heart:before {
   content: "\e04a";
 }
@@ -54,4 +63,30 @@
 }
 .icon-twitter:before {
   content: "\ea96";
+}
+
+.icon-twitter2:hover, .icon-twitter:hover {
+  color: #2fb7db;
+  background: #fff;
+}
+.icon-facebook:hover {
+  color: #fff;
+  background: #3b5998;
+}
+.icon-facebook2:hover{
+  color:#0c1f70;
+}
+.icon-googleplus:hover{
+  color:#d44337;
+}
+.icon-heart:hover {
+  color: #ed1226;
+}
+.icon-bubble:hover{
+  color:#d349f0;
+}
+.icon-search:hover{
+  color:#3fc781;
+  background: #fff;
+  border: 2px solid #3fc781;
 }
