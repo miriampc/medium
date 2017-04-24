@@ -8,7 +8,6 @@ window.addEventListener('load',function(){
         var padre =  htmlElements.filter(function(pe){return pe.id==e.id});
         var elemento = document.createElement(padre[0].element);
 
-        //elemento.classList.add(e.classElem.toString());
         elemento.setAttribute("class",e.classElem);
         document.body.prepend(elemento);
         searchTagHtml(e.id, elemento);
@@ -22,7 +21,6 @@ window.addEventListener('load',function(){
 
         for(var a in list){
             var elementChild=document.createElement(list[a].element);
-            //elementChild.classList.add(list[a].classElem);
             elementChild.setAttribute("class",list[a].classElem);
             elementParent.appendChild(elementChild);
             searchTagHtml(list[a].id, elementChild);
@@ -39,11 +37,4 @@ window.addEventListener('load',function(){
     document.getElementsByClassName('text-green')[0].appendChild(document.createTextNode('Next Story'));
     document.getElementsByClassName('text-in-footer')[0].appendChild(document.createTextNode('Describiendo el flujo de trabajo en...'));
 
-    //eventos
-    var twitter=document.getElementsByClassName('icon-twitter')[0];
-    twitter.onmouseover=function(){
-      // twitter.style.color="blue";
-      twitter.classList.add("color-change");
-      twitter.classList.remove("color-change");
-    }
 });
